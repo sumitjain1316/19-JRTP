@@ -10,6 +10,6 @@ public class App
     	book.setBookId("12345");
     	book.setBookName("Hibernate");
     	book.setBookPrice("400");
-        System.out.println( "Books Record Updated!!" );
+        System.out.println( "Hello Books Record Updated!!" );
     }
 }
