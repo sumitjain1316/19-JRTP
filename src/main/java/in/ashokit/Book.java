@@ -6,6 +6,14 @@ public class Book {
 	private String bookName;
 	private String bookPrice;
 	private String bookAuthor;
+	private String bookEdition;
+	
+	public String getBookEdition() {
+		return bookEdition;
+	}
+	public void setBookEdition(String bookEdition) {
+		this.bookEdition = bookEdition;
+	}
 	public String getBookId() {
 		return bookId;
 	}
