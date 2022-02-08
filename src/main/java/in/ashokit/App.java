@@ -11,6 +11,7 @@ public class App
     	book.setBookName("Hibernate");
     	book.setBookPrice("400");
     	book.setBookEdition("First");
+    	book.setEditionYear("2010");
         System.out.println( "Hello Books Record Updated!!" );
     }
 }
