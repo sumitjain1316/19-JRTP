@@ -6,6 +6,23 @@ public class Book {
 	private String bookName;
 	private String bookPrice;
 	private String bookAuthor;
+	private String bookEdition;
+	private String editionYear;
+
+	
+	public String getBookEdition() {
+		return bookEdition;
+	}
+	public void setBookEdition(String bookEdition) {
+		this.bookEdition = bookEdition;
+	}
+	
+	public String getEditionYear() {
+		return editionYear;
+	}
+	public void setEditionYear(String editionYear) {
+		this.editionYear = editionYear;
+	}
 	public String getBookId() {
 		return bookId;
 	}
