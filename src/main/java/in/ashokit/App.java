@@ -8,7 +8,7 @@ public class App
     	Book book = new Book();
     	book.setBookAuthor("Rod Johnoson");
     	book.setBookId("12345");
-    	book.setBookName("Hibernate");
+    	book.setBookName("Hibernate Book");
     	book.setBookPrice("400");
         System.out.println( "Hello Books Record Updated!!" );
     }
